@@ -71,12 +71,63 @@ p{
     justify-items: center;
 }
 
+.servicios { 
+    border: solid 5px #F9D7F0 ;
+    border-radius: 15px;
+    width: 1300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    columns: 2;
+    justify-items: center;
+}
+
+.subservicios{ 
+    border: solid 0.1px #F9D7F0 ;
+    border-radius: 5px;
+    height: 450px;
+    width: 620px;
+    display: inline-block;
+    justify-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+.subotrosservicios{ 
+    border: solid 1px #F9D7F0 ;
+    border-radius: 10px;
+    height: 350px;
+    width: 635.2px;
+}
+
+.cuidatucabello { 
+    border: solid 5px #F9D7F0 ;
+    border-radius: 15px;
+    width: 1300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    columns: 2;
+}
+
+footer{ 
+    background-color: #B69BAF;
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 20px;
+    height: 200px;
+}
+
+/*
 .label{ 
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4E1940;
     display:contents;
+    content: 30px;
+    display: inline-block;
+    margin: 0 74px;
 }
-/*
+
 ._nombre{ 
     grid-column: 1/ span 3; 
     grid-row: 2; 
@@ -111,4 +162,4 @@ p{
     grid-column: 4/ span 6; 
     grid-row: 2; 
  }
- */
+ 
